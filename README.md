@@ -768,6 +768,7 @@ Faker::Cooking.fruit #=> "kiwi"
 Faker::Cooking.meat #=> "lamb"
 Faker::Cooking.spice #=> "basil"
 Faker::Cooking.vegetable #=> "lettuce"
+```
 
 Customization
 ------------
