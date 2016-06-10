@@ -244,3 +244,18 @@ en:
         course:
           subject: ['Arts', 'Business', 'Education', 'Applied Science (Psychology)', 'Architectural Technology', 'Biological Science', 'Biomedical Science', 'Commerce', 'Communications', 'Creative Arts', 'Criminology', 'Design', 'Engineering', 'Forensic Science', 'Health Science', 'Information Systems', 'Computer Science', 'Law', 'Nursing', 'Medicine', 'Psychology', 'Teaching']
           type: ['Associate Degree in', 'Bachelor of', 'Master of']
+
+    cooking:
+      course: [breakfast, dessert, dinner, lunch]
+      cuisine: [american, british, caribbean, chinese, french, greek, indian, italian, mexican, thai]
+      ingredient:
+        - "#{vegetable}
+        - "#{meat}"
+        - "#{fruit}"
+        - "#{spice}"
+
+      fish: [cod, haddock, herring, oysters, sarnines, trout, tuna]
+      fruit: [apple, apricot, banana, blueberry, cherry, coconut, cranberry, dates, grapes, kiwi, lemon, mango, melon, orange, papaya, pear, pineapple, plum, tomato]
+      meat: [bacon, beef, chicken, chicken breast, ham, lamb, mutton, pork, turkey]
+      spice: [basil, caraway seeds, cayenne, cinnamon, coriander, cumin, dill, lemon grass, nutmeg, oregano, pepper, rosemary, saffron, sage, salt, salt, yeast]
+      vegetable: [bean, beetroot, broccoli, carrot, cauliflower, celery, corn, cucumber, eggplant, garlic, ginger, leek, lettuce, mushroom, olive, onion, pea, pepper, potato, pumpkin, raddish, spinach, sweet potato, zucchini]
