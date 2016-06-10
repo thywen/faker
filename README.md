@@ -49,6 +49,7 @@ Contents
   - [Faker::Beer](#fakerbeer)
   - [Faker::ChuckNorris](#fakerchucknorris)
   - [Faker::Educator](#fakereducator)
+  - [Faker::Cooking](#fakercooking)
 - [Customization](#customization)
 - [Contributing](#contributing)
 - [Contact](#contact)
@@ -754,6 +755,19 @@ Faker::Educator.course #=> "Associate Degree in Criminology"
 
 Faker::Educator.campus #=> "Vertapple Campus"
 ```
+
+###Faker::Cooking
+----------------
+
+```ruby
+Faker::Cooking.course #=> "dinner"
+Faker::Cooking.cuisine #=> "british"
+Faker::Cooking.ingredient #=> "cucumber"
+Faker::Cooking.fish #=> "haddock"
+Faker::Cooking.fruit #=> "kiwi"
+Faker::Cooking.meat #=> "lamb"
+Faker::Cooking.spice #=> "basil"
+Faker::Cooking.vegetable #=> "lettuce"
 
 Customization
 ------------
