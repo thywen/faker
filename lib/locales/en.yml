@@ -249,7 +249,7 @@ en:
       course: [breakfast, dessert, dinner, lunch]
       cuisine: [american, british, caribbean, chinese, french, greek, indian, italian, mexican, thai]
       ingredient:
-        - "#{vegetable}
+        - "#{vegetable}"
         - "#{meat}"
         - "#{fruit}"
         - "#{spice}"

@@ -15,6 +15,10 @@ module Faker
         parse('cooking.ingredient')
       end
 
+      def ingredients(amount = 3)
+       Array.new(amount) { ingredient }
+      end
+
       def fruit
         fetch('cooking.fruit')
       end

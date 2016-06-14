@@ -17,6 +17,18 @@ class TestFakerCooking < Test::Unit::TestCase
     assert @tester.ingredient.match(/\w+\.?/)
   end
 
+  def test_ingredient_length
+    assert @tester.ingredients(5).length == 5
+  end
+
+  def test_ingredients_standard_length
+    assert @tester.ingredients.length == 3
+  end
+
+  def test_ingredients_content
+    @tester.ingredients.each { | ingredient | assert ingredient.match(/\w+\.?/) }
+  end
+
   def test_fish
     assert @tester.fruit.match(/\w+\.?/)
   end
