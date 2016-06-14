@@ -761,8 +761,13 @@ Faker::Educator.campus #=> "Vertapple Campus"
 
 ```ruby
 Faker::Cooking.course #=> "dinner"
+
 Faker::Cooking.cuisine #=> "british"
+
 Faker::Cooking.ingredient #=> "cucumber"
+Faker::Cooking.ingredients #=> ['cherry, 'pork', 'nutmeg']
+Faker::Cooking.ingredients(5) #=> ['haddock', 'cod', 'oregano', 'broccoli', 'califlower']
+
 Faker::Cooking.fish #=> "haddock"
 Faker::Cooking.fruit #=> "kiwi"
 Faker::Cooking.meat #=> "lamb"
