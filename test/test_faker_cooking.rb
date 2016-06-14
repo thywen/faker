@@ -3,6 +3,7 @@ require File.expand_path(File.dirname(__FILE__) + '/test_helper.rb')
 class TestFakerCooking < Test::Unit::TestCase
   def setup
     @tester = Faker::Cooking
+    @meatlist = I18n.translate('faker.cooking.meat') + I18n.translate('faker.cooking.fish')
   end
 
   def test_cuisine
@@ -43,5 +44,9 @@ class TestFakerCooking < Test::Unit::TestCase
 
   def test_spice
     assert @tester.spice.match(/\w+\.?/)
+  end
+
+  def test_vegetable
+    assert @tester.vegetable.match(/\w+\.?/)
   end
 end
