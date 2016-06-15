@@ -3,19 +3,19 @@ require File.expand_path(File.dirname(__FILE__) + '/test_helper.rb')
 class TestFakerCooking < Test::Unit::TestCase
   def setup
     @tester = Faker::Cooking
-    @meatlist = I18n.translate('faker.cooking.meat') + I18n.translate('faker.cooking.fish')
+    @wordregex = (/\w+\.?/)
   end
 
   def test_cuisine
-    assert @tester.cuisine.match(/\w+\.?/)
+    assert @tester.cuisine.match(@wordregex)
   end
 
   def test_course
-    assert @tester.course.match(/\w+\.?/)
+    assert @tester.course.match(@wordregex)
   end
 
   def test_ingredient
-    assert @tester.ingredient.match(/\w+\.?/)
+    assert @tester.ingredient.match(@wordregex)
   end
 
   def test_ingredient_length
@@ -27,26 +27,26 @@ class TestFakerCooking < Test::Unit::TestCase
   end
 
   def test_ingredients_content
-    @tester.ingredients.each { | ingredient | assert ingredient.match(/\w+\.?/) }
+    @tester.ingredients.each { | ingredient | assert ingredient.match(@wordregex) }
   end
 
   def test_fish
-    assert @tester.fruit.match(/\w+\.?/)
+    assert @tester.fruit.match(@wordregex)
   end
 
   def test_fruit
-    assert @tester.fruit.match(/\w+\.?/)
+    assert @tester.fruit.match(@wordregex)
   end
 
   def test_meat
-    assert @tester.meat.match(/\w+\.?/)
+    assert @tester.meat.match(@wordregex)
   end
 
   def test_spice
-    assert @tester.spice.match(/\w+\.?/)
+    assert @tester.spice.match(@wordregex)
   end
 
   def test_vegetable
-    assert @tester.vegetable.match(/\w+\.?/)
+    assert @tester.vegetable.match(@wordregex)
   end
 end
