@@ -245,6 +245,180 @@ en:
           subject: ['Arts', 'Business', 'Education', 'Applied Science (Psychology)', 'Architectural Technology', 'Biological Science', 'Biomedical Science', 'Commerce', 'Communications', 'Creative Arts', 'Criminology', 'Design', 'Engineering', 'Forensic Science', 'Health Science', 'Information Systems', 'Computer Science', 'Law', 'Nursing', 'Medicine', 'Psychology', 'Teaching']
           type: ['Associate Degree in', 'Bachelor of', 'Master of']
 
+    space:
+      planet: ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
+      moon: ['Moon', 'Luna', 'Deimos', 'Phobos', 'Ganymede', 'Callisto', 'Io', 'Europa', 'Titan', 'Rhea', 'Iapetus', 'Dione', 'Tethys', 'Hyperion', 'Ariel', 'Puck', 'Oberon', 'Umbriel', 'Triton', 'Proteus']
+      galaxy: ['Milky Way', 'Andromeda', 'Triangulum', 'Whirlpool', 'Blackeye', 'Sunflower', 'Pinwheel', 'Hoags Object', 'Centaurus A', 'Messier 83']
+      nebula: ['Lagoon Nebula', 'Eagle Nebula', 'Triffid Nebula', 'Dumbell Nebula', 'Orion Nebula', ' Ring Nebula', 'Bodes Nebula', 'Owl Nebula']
+      star_cluster: ['Wild Duck', 'Hyades', 'Coma', 'Butterfly', 'Messier 7', 'Pleiades', 'Beehive Cluster', 'Pearl Cluster', 'Hodge 301', 'Jewel Box Cluster', 'Wishing Well Cluster', 'Diamond Cluster', 'Trumpler 10', 'Collinder 140', 'Liller 1', 'Koposov II', 'Koposov I', 'Djorgovski 1', 'Arp-Madore 1', 'NGC 6144', 'NGC 2808', 'NGC 1783', 'Messier 107', 'Messier 70', 'Omega Centauri', 'Palomar 12', 'Palomar 4', 'Palomar 6', 'Pyxis Cluster', 'Segue 3']
+      constellation: ['Big Dipper', 'Litte Dipper', 'Orion', 'Loe', 'Gemini', 'Cancer', 'Canis Minor', 'Canis Major', 'Ursa Major', 'Ursa Minor', 'Virgo', 'Libra', 'Scorpius', 'Sagittarius', 'Lyra', 'Capricornus', 'Aquarius', 'Pisces', 'Aries', 'Leo Minor', 'Auriga']
+      star: ['Sun', 'Proxima Centauri', 'Rigil Kentaurus', 'Barnards Star', 'Wolf 359', 'Luyten 726-8A', 'Luyten 726-8B', 'Sirius A', 'Sirius B', 'Ross 154', 'Ross 248', 'Procyon A', 'Procyon B', 'Vega', 'Rigel', 'Arcturus', 'Betelgeuse', 'Mahasim', 'Polaris']
+      agency: ['National Aeronautics and Space Administration', 'European Space Agency', 'German Aerospace Center', 'Indian Space Research Organization', 'China National Space Administration', 'UK Space Agency', 'Brazilian Space Agency', 'Mexican Space Agency', 'Israeli Space Agency', 'Italian Space Agency', 'Japan Aerospace Exploration Agency', 'National Space Agency of Ukraine', 'Russian Federal Space Agency', 'Swedish National Space Board']
+      agency_abv: ['NASA', 'AEM', 'AEB', 'UKSA', 'CSA', 'CNSA', 'ESA', 'DLR', 'ISRO', 'JAXA', 'ISA', 'CNES', 'NSAU', 'ROSCOSMOS', 'SNSB']
+      nasa_space_craft: ['Orion', 'Mercury', 'Gemini', 'Apollo', 'Enterprise', 'Columbia', 'Challenger', 'Discovery', 'Atlantis', 'Endeavour']
+      company: ['SpaceX', 'Blue Origin', 'Virgin Galactic', 'SpaceDev', 'Bigelow Aerospace', 'Orbital Sciences', 'JPL', 'NASA Jet Propulsion Laboratory']
+      distance_measurement: ['light years', 'AU', 'parsecs', 'kiloparsecs', 'megaparsecs']
+
+    yoda:
+      quotes: ["Use your feelings, Obi-Wan, and find him you will.", "Already know you that which you need.", "Adventure. Excitement. A Jedi craves not these things.", "At an end your rule is, and not short enough it was!", "Around the survivors a perimeter create.", "Soon will I rest, yes, forever sleep. Earned it I have. Twilight is upon me, soon night must fall.", "Not if anything to say about it I have", "Through the Force, things you will see. Other places. The future - the past. Old friends long gone.", "Ow, ow, OW! On my ear you are!", "The dark side clouds everything. Impossible to see the future is.", "Size matters not. Look at me. Judge me by my size, do you? Hmm? Hmm. And well you should not. For my ally is the Force, and a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we, not this crude matter. You must feel the Force around you; here, between you, me, the tree, the rock, everywhere, yes. Even between the land and the ship.", "Younglings, younglings gather ’round.", "Luminous beings are we - not this crude matter.", "Clear your mind must be, if you are to find the villains behind this plot.", "Always two there are, no more, no less. A master and an apprentice.", "Do. Or do not. There is no try.", "Much to learn you still have my old padawan. ... This is just the beginning!", "Good relations with the Wookiees, I have.", "Ready are you? What know you of ready? For eight hundred years have I trained Jedi. My own counsel will I keep on who is to be trained. A Jedi must have the deepest commitment, the most serious mind. This one a long time have I watched. All his life has he looked away - to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh. Excitement. Heh. A Jedi craves not these things. You are reckless.", "Truly wonderful, the mind of a child is.", "Always pass on what you have learned.", "Once you start down the dark path, forever will it dominate your destiny, consume you it will.", "Mudhole? Slimy? My home this is!", "Yes, a Jedi’s strength flows from the Force. But beware of the dark side. Anger, fear, aggression; the dark side of the Force are they. Easily they flow, quick to join you in a fight. If once you start down the dark path, forever will it dominate your destiny, consume you it will, as it did Obi-Wan’s apprentice.", "Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.", "Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them do not. Miss them do not. Attachment leads to jealously. The shadow of greed, that is.", "Like fire across the galaxy the Clone Wars spread. In league with the wicked Count Dooku, more and more planets slip. Against this threat, upon the Jedi Knights falls the duty to lead the newly formed army of the Republic. And as the heat of war grows, so, to, grows the prowess of one most gifted student of the Force.", "Hmm. In the end, cowards are those who follow the dark side.", "Strong is Vader. Mind what you have learned. Save you it can.", "Pain, suffering, death I feel. Something terrible has happened. Young Skywalker is in pain. Terrible pain", "Difficult to see. Always in motion is the future...", "You will find only what you bring in.", "Feel the force!", "Reckless he is. Matters are worse.", "That is why you fail.", "Your weapons, you will not need them.", "To answer power with power, the Jedi way this is not. In this war, a danger there is, of losing who we are."]
+
+    music:
+      instruments: ['Electric Guitar', 'Acoustic Guitar', 'Flute', 'Trumpet', 'Clarinet', 'Cello', 'Harp', 'Xylophone', 'Harmonica', 'Accordion', 'Organ', 'Piano', 'Ukelele', 'Saxophone', 'Drums', 'Violin', 'Bass Guitar']
+
+    vehicle:
+      year: [A, L, Y, B, M, 1, C, N, 2, D, P, 3, E, R, 4, F, S, 5, G, T, 6, H, V, 7, J, W, 8, K, X, 9]
+      manufacture:
+        - name: MARQUESS ELECTRIC CAR COMPANY
+          wmi: 15E
+          wmi_ext:
+        - name: AJAX MANUFACTURING COMPANY, INC.
+          wmi: 1A9
+          wmi_ext: 396
+        - name: DAIMLERCHRYSLER CORPORATION
+          wmi: 1B6
+          wmi_ext:
+        - name: BAY EQUIPMENT & REPAIR
+          wmi: 1B9
+          wmi_ext: 290
+        - name: CHOPPER GUY'S, INC.
+          wmi: 1C9
+          wmi_ext: 564
+        - name: COMMERCIAL MOBILE SYSTEMS
+          wmi: 1C9
+          wmi_ext: ACA
+        - name: FORD MOTOR COMPANY
+          wmi: 1F1
+          wmi_ext:
+        - name: AMERICAN TRANSPORTATION CORPORATION
+          wmi: 1F8
+          wmi_ext:
+        - name: FMC CORP
+          wmi: 1F9
+          wmi_ext: 041
+        - name: GENERAL MOTORS CORPORATION
+          wmi: 1G8
+          wmi_ext:
+        - name: AUTOMOTRIZ PEYCHA, S.A. DE C.V.
+          wmi: 3A9
+          wmi_ext: 068
+        - name: REGIOBUS, S.A. DE C.V.
+          wmi: 3R9
+          wmi_ext: 097
+        - name: Interstate West Corporation
+          wmi: 4RA
+          wmi_ext:
+        - name: HONDA MANUFACTURING OF ALABAMA
+          wmi: 5FS
+          wmi_ext:
+        - name: IMECA S.R.L.
+          wmi: 8C9
+          wmi_ext: ME1
+        - name: FIAT DIESEL BRASIL S/A
+          wmi: 9BE
+          wmi_ext:
+        - name: WOODGATE HOLDINGS LIMITED
+          wmi: DLA
+          wmi_ext:
+        - name: SOMACOA (STE. MALGACHE DE
+          wmi: GA1
+          wmi_ext:
+        - name: ISUZU MOTORS LIMITED
+          wmi: J81
+          wmi_ext:
+        - name: HYUNDAI MOTOR CO LTD
+          wmi: KPH
+          wmi_ext:
+        - name: SSANGYONG MOTOR COMPANY
+          wmi: KPL
+          wmi_ext:
+        - name: HUBEI CHILE AUTOMOBILE CO.LTD
+          wmi: L1C
+          wmi_ext:
+        - name: SICHUAN LESHAN BUS WORKS
+          wmi: LLD
+          wmi_ext:
+        - name: HERO HONDA MOTORS LTD
+          wmi: MB4
+          wmi_ext:
+        - name: AEON MOTOR CO., LTD.
+          wmi: RF3
+          wmi_ext:
+        - name: CHYONG HORNG ENTERPRISE CO., LTD.
+          wmi: RF4
+          wmi_ext:
+        - name: YULON MOTOR CO., LTD.
+          wmi: RF5
+          wmi_ext:
+        - name: DIN-LI METAL INDUSTRIAL CO LTD
+          wmi: RFW
+          wmi_ext:
+        - name: JAGUAR CARS LTD
+          wmi: SAJ
+          wmi_ext:
+        - name: LAND ROVER GROUP LTD
+          wmi: SAL
+          wmi_ext:
+        - name: ROVER GROUP LTD
+          wmi: SAR
+          wmi_ext:
+        - name: ZAKLAD BUDOWY I REMONTOW NACZEP WIE
+          wmi: SU9
+          wmi_ext: WL1
+        - name: SANOCKA FABRYKA AUTOBUSOW SFA
+          wmi: SUA
+          wmi_ext:
+        - name: Z.P.U.P.S. TRAMP TRAIL
+          wmi: SUB
+          wmi_ext:
+        - name: WYTWORNIA POJAZDOW MELEX
+          wmi: SXM
+          wmi_ext:
+        - name: MOWAG
+          wmi: TAM
+          wmi_ext:
+        - name: CSEPEL AUTOGYAR
+          wmi: TRC
+          wmi_ext:
+        - name: AUTOMOBILES TALBOT
+          wmi: VF4
+          wmi_ext:
+        - name: IVECO UNIC SA
+          wmi: VF5
+          wmi_ext:
+        - name: RENAULT VEHICULES INDUSTRIELS
+          wmi: VF6
+          wmi_ext:
+        - name: KIBO KOMMUNALMASCHINEN GMBH & CO.KG
+          wmi: W09
+          wmi_ext: K10
+        - name: BMW MOTORSPORT GMBH
+          wmi: WBS
+          wmi_ext:
+        - name: P. BARTHAU STAHLBAU
+          wmi: WBT
+          wmi_ext:
+        - name: BMW AG
+          wmi: WBW
+          wmi_ext:
+        - name: DAIMLERCHRYLSER AG
+          wmi: WD2
+          wmi_ext:
+        - name: DAIMLERCHRYSLER AG
+          wmi: WD3
+          wmi_ext:
+        - name: MANDOS S.A.
+          wmi: XF9
+          wmi_ext: D41
+
+    file:
+      extension: ["flac", "mp3", "wav", "bmp", "gif", "jpeg", "jpg", "png", "tiff", "css", "csv", "html", "js", "json", "txt", "mp4", "avi", "mov", "webm", "doc", "docx", "xls", "xlsx", "ppt", "pptx", "odt", "ods", "odp", "pages", "numbers", "key", "pdf"]
+      mime_type: ["application/atom+xml", "application/ecmascript", "application/EDI-X12", "application/EDIFACT", "application/json", "application/javascript", "application/ogg", "application/pdf", "application/postscript", "application/rdf+xml", "application/rss+xml", "application/soap+xml", "application/font-woff", "application/xhtml+xml", "application/xml-dtd", "application/xop+xml", "application/zip", "application/gzip", "audio/basic", "audio/L24", "audio/mp4", "audio/mpeg", "audio/ogg", "audio/vorbis", "audio/vnd.rn-realaudio", "audio/vnd.wave", "audio/webm", "image/gif", "image/jpeg", "image/pjpeg", "image/png", "image/svg+xml", "image/tiff", "image/vnd.microsoft.icon", "message/http", "message/imdn+xml", "message/partial", "message/rfc822", "model/example", "model/iges", "model/mesh", "model/vrml", "model/x3d+binary", "model/x3d+vrml", "model/x3d+xml", "multipart/mixed", "multipart/alternative", "multipart/related", "multipart/form-data", "multipart/signed", "multipart/encrypted", "text/cmd", "text/css", "text/csv", "text/html", "text/javascript", "text/plain", "text/vcard", "text/xml", "video/mpeg", "video/mp4", "video/ogg", "video/quicktime", "video/webm", "video/x-matroska", "video/x-ms-wmv", "video/x-flv"]
+
+    game_of_thrones:
+      characters: ['Daenerys Targaryen', 'Jon Snow', 'Arya Stark', 'Gregor Clegane', 'Melisandre', 'Tyrion Lannister', 'Jaime Lannister', 'Cersei Lannister', 'Petyr Baelish', 'Jorah Mormont', 'Sansa Stark', 'Theon Greyjoy', 'Bran Stark', 'Sandor Clegane', 'Joffrey Baratheon', 'Catelyn Stark', 'Robb Stark', 'Ned Stark', 'Robert Baratheon', 'Viserys Targaryen', 'Varys', 'Samwell Tarly', 'Bronn', 'Tywin Lannister', 'Jeor Mormont', 'Shae', 'Gendry', 'Tommen Baratheon', "Jaqen H'ghar", 'Khal Drogo', 'Davos Seaworth', 'Margaery Tyrell', 'Stannis Baratheon', 'Ygritte', 'Brienne of Tarth', 'Roose Bolton', 'Ramsay Bolton']
+      houses: ['Arryn', 'Baratheon', 'Bolton', 'Frey', 'Greyjoy', 'Lannister', 'Martell', 'Stark', 'Targaryen', 'Tully', 'Tyrell']
+      cities: ['Braavos', "King's Landing", 'Volantis', 'Qarth', 'Asshai', 'Old Valyria', 'Meereen', 'Oldtown', 'Pentos', 'Astapor', 'Yunkai', 'Lorath', 'Lys', 'Vaes Dothrak', 'Sunspear', 'White Harbor', 'Myr', 'Lannisport', 'Qohor', 'Tyrosh', 'Norvos', 'Gulltown', 'Old Ghis', 'New Ghis', 'Mantarys', 'Bayasabhad', 'Elyria', 'Tolos', 'Samyrian', 'Chroyane', 'Tyria', 'Oros', 'Bhorash', 'Ny Sar', 'Sar Meel', 'Ar Noy']
+
     cooking:
       course: [breakfast, dessert, dinner, lunch]
       cuisine: [american, british, caribbean, chinese, french, greek, indian, italian, mexican, thai]

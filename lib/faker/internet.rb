@@ -97,23 +97,20 @@ module Faker
       end
 
       def ip_v4_address
-        ary = (2..254).to_a
-        [ary.sample,
-        ary.sample,
-        ary.sample,
-        ary.sample].join('.')
+        (1..4).map { rand(2..254) }.join('.')
+      end
+
+      def private_ip_v4_address
+        is_private = private_net_checker
+        addr = nil
+        begin
+          addr = ip_v4_address
+        end while !is_private[addr]
+        addr
       end
 
       def public_ip_v4_address
-        private_nets = [
-          /^10\./,
-          /^127\./,
-          /^169\.254\./,
-          /^172\.(16|17|18|19|2\d|30|31)\./,
-          /^192\.168\./
-        ]
-
-        is_private = lambda {|addr| private_nets.any?{|net| net =~ addr}}
+        is_private = private_net_checker
         addr = nil
         begin
           addr = ip_v4_address
@@ -121,14 +118,26 @@ module Faker
         addr
       end
 
+      def private_nets_regex
+        [
+          /^10\./,
+          /^127\./,
+          /^169\.254\./,
+          /^172\.(16|17|18|19|2\d|30|31)\./,
+          /^192\.168\./
+        ]
+      end
+
+      def private_net_checker
+        lambda { |addr| private_nets_regex.any? { |net| net =~ addr } }
+      end
+
       def ip_v4_cidr
         "#{ip_v4_address}/#{1 + rand(31)}"
       end
 
       def ip_v6_address
-        @@ip_v6_space ||= (0..65535).to_a
-        container = (1..8).map{ |_| @@ip_v6_space.sample }
-        container.map{ |n| n.to_s(16) }.join(':')
+        (1..8).map { rand(65536).to_s(16) }.join(':')
       end
 
       def ip_v6_cidr

@@ -1,5 +1,6 @@
-Faker
-=====
+# Faker [![Build Status](https://travis-ci.org/stympy/faker.svg?branch=master)](https://travis-ci.org/stympy/faker) [![Gem Version](https://badge.fury.io/rb/faker.svg)](https://badge.fury.io/rb/faker)
+
+
 This gem is a port of Perl's Data::Faker library that generates fake data.
 
 It comes in very handy for taking screenshots (taking screenshots for my
@@ -29,6 +30,7 @@ Contents
   - [Faker::Company](#fakercompany)
   - [Faker::Date](#fakerdate)
   - [Faker::Internet](#fakerinternet)
+  - [Faker::File](#fakerfile)
   - [Faker::Lorem](#fakerlorem)
   - [Faker::Name](#fakername)
   - [Faker::Number](#fakernumber)
@@ -49,12 +51,19 @@ Contents
   - [Faker::Beer](#fakerbeer)
   - [Faker::ChuckNorris](#fakerchucknorris)
   - [Faker::Educator](#fakereducator)
+<<<<<<< HEAD
   - [Faker::Cooking](#fakercooking)
+=======
+  - [Faker::Space](#fakerspace)
+  - [Faker::Music](#fakermusic)
+  - [Faker::Vehicle](#fakervehicle)
+  - [Faker::GameOfThrones](#fakergameofthrones)
+>>>>>>> upstream/master
 - [Customization](#customization)
 - [Contributing](#contributing)
 - [Contact](#contact)
 - [License](#license)
-  
+
 Installing
 ----------
 ```bash
@@ -211,6 +220,9 @@ Faker::Company.logo #=> "https://pigment.github.com/fake-logos/logos/medium/colo
 
 Faker::Company.swedish_organisation_number #=> "7718797652"
 
+# Generate an Australian Business Number
+Faker::Company.australian_business_number #=> "81137773602"
+
 # Get a random profession
 Faker::Company.profession #=> "firefighter"
 
@@ -280,8 +292,10 @@ Faker::Internet.domain_suffix #=> "info"
 
 Faker::Internet.ip_v4_address #=> "24.29.18.175"
 
-# Guaranteed not to be in 10.0.0.0/8, 127.0.0.0/8, 169.254.0.0/16,
-# 172.16.0.0/12, or 192.168.0.0/16
+# Private IP range according to RFC 1918 and 127.0.0.0/8 and 169.254.0.0/16.
+Faker::Internet.private_ip_v4_address #=> "10.0.0.1"
+
+# Guaranteed not to be in the ip range from the private_ip_v4_address method.
 Faker::Internet.public_ip_v4_address #=> "24.29.18.175"
 
 Faker::Internet.ip_v4_cidr #=> "24.29.18.175/21"
@@ -305,6 +319,18 @@ Faker::Internet.slug('foo bar') #=> "foo.bar"
 Faker::Internet.slug('foo bar', '-') #=> "foo-bar"
 
 
+```
+
+###Faker::File
+---------------
+```ruby
+Faker::File.extension #=> "mp3"
+Faker::File.mime_type #=> "application/pdf"
+# Optional arguments: dir, name, extension, directory_separator
+Faker::File.file_name('path/to') #=> "path/to/something_random.jpg"
+Faker::File.file_name('foo/bar', 'baz') #=> "foo/bar/baz.zip"
+Faker::File.file_name('foo/bar', 'baz', 'doc') #=> "foo/bar/baz.doc"
+Faker::File.file_name('foo/bar', 'baz', 'mp3', '\') #=> "foo\bar\baz.mp3"
 ```
 
 ###Faker::Lorem
@@ -754,6 +780,80 @@ Faker::Educator.secondary_school #=> "Iceborough Secodary College"
 Faker::Educator.course #=> "Associate Degree in Criminology"
 
 Faker::Educator.campus #=> "Vertapple Campus"
+```
+
+###Faker::Space
+----------------
+
+```ruby
+# Random planet from our Solar System
+Faker::Space.planet #=> "Venus"
+
+# Random moon from our Solar System
+Faker::Space.moon #=> "Europa"
+
+# Random galaxy
+Faker::Space.galaxy #=> "Andromeda"
+
+# Random nebula name
+Faker::Space.nebula #=> "Triffid Nebula"
+
+# Random star cluster
+Faker::Space.star_cluster #=> "Messier 70"
+
+# Random constellation
+Faker::Space.constellation #=> "Orion"
+
+# Random star
+Faker::Space.star #=> "Proxima Centauri"
+
+# Random national space agency
+Faker::Space.agency #=> "Japan Aerospace Exploration Agency"
+
+# Random space agency abbreviation
+Faker::Space.agency_abv #=> "NASA"
+
+# Random spacecraft name (limited to NASA)
+Faker::Space.nasa_space_craft #=> "Endeavour"
+
+# Random private space company title
+Faker::Space.company #=> "SpaceX"
+
+# Random unit of stellar distance with number
+Faker::Space.distance_measurement #=> "15 parsecs"
+```
+
+
+###Faker::Music
+-------------------
+
+```ruby
+Faker::Music.key #=> "C"
+
+Faker::Music.instrument #=> "Ukelele"
+```
+
+###Faker::Vehicle
+------------------
+
+```ruby
+
+# Generate vehicle identification number
+Faker::Vehicle.vin #=> "LLDWXZLG77VK2LUUF"
+
+# Random vehicle manufacturer
+Faker::Vehicle.manufacture #=> "JAGUAR CARS LTD"
+```
+
+###Faker::GameOfThrones
+----------------
+
+```ruby
+Faker::GameOfThrones.character #=> "Tyrion Lannister"
+
+Faker::GameOfThrones.house #=> "Stark"
+
+Faker::GameOfThrones.city #=> "Lannisport"
 ```
 
 ###Faker::Cooking
