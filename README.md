@@ -51,14 +51,11 @@ Contents
   - [Faker::Beer](#fakerbeer)
   - [Faker::ChuckNorris](#fakerchucknorris)
   - [Faker::Educator](#fakereducator)
-<<<<<<< HEAD
-  - [Faker::Cooking](#fakercooking)
-=======
   - [Faker::Space](#fakerspace)
   - [Faker::Music](#fakermusic)
   - [Faker::Vehicle](#fakervehicle)
   - [Faker::GameOfThrones](#fakergameofthrones)
->>>>>>> upstream/master
+  - [Faker::Cooking](#fakercooking)
 - [Customization](#customization)
 - [Contributing](#contributing)
 - [Contact](#contact)
